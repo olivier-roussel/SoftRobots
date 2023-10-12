@@ -81,6 +81,12 @@ $ conda config --show channel_priority
 
 # [Install SOFA conda packages](#install_sofa_conda_package)
 
+Once everything is set up, you can install the conda packages of the last SOFA and its plugins release (v23.06).
+
+## <i>Note</i>
+
+> These conda packages are a prerelease and supported platforms are limited to Linux and Windows. Support for macOS is not operational yet.
+
 ## Setup a dedicated conda environment
 
 Create a new conda environment for the tutorial:
@@ -94,6 +100,8 @@ Activate the newly created environment:
 ```
 conda activate jnrr-tripod-tutorial
 ```
+
+## Install conda packages
 
 Install SOFA and required plugins in this conda environment with `conda` or with `mamba` (faster):
 ```
